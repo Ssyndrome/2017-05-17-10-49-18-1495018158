@@ -1,4 +1,5 @@
-var main = function(a,b) {
-  return a%b;
+function main(a,b){
+    return a%b;
 }
-export(9,3);
+var result = main(9,3);
+alert(result);
