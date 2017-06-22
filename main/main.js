@@ -1,3 +1,3 @@
-var final = function(x,y){
+var main = function(x,y){
     return x%y;
 };
