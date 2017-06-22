@@ -1,4 +1,6 @@
 module.exports = function main() {
-    console.log("Debug Info");
-    return 'Hello World!';
+    var a = 12;
+    var b = 5;
+    var c =a%b;
+    console.log("c");
 };
