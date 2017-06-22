@@ -1,6 +1,4 @@
-function main(a,b) {
-    var result = a%b;
-    return result;
+var main = function(a,b) {
+  return a%b;
 }
-var final = main(12,5);
-console.log(final);
+export(9,5);
