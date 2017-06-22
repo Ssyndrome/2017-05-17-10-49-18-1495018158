@@ -6,4 +6,3 @@ function main(a,b){
 
 console.log(main(9,4));
 
-module.exports =main；
