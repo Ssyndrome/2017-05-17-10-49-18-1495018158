@@ -1,8 +1,8 @@
 'use strict';
 
-function main(a,b){
+function final(a,b){
 	return a%b;
 }
 
-console.log(main());
+console.log(final(9,4));
 
