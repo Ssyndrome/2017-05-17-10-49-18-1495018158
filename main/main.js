@@ -1,4 +1,6 @@
-var main = function(x,y){
-    return x%y;
+'use strict';
+var main = function(a,b){
+	return a%b;
 };
-main();
+
+console.log(main(9,3));
