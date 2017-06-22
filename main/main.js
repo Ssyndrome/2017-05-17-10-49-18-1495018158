@@ -1,6 +1,9 @@
 'use strict';
-var main = function(a,b){
+
+function main(a,b){
 	return a%b;
-};
+}
 
 console.log(main(9,4));
+
+module.exports =main；
