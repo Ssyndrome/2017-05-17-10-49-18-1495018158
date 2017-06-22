@@ -1,6 +1,6 @@
-module.exports = function main() {
-    var a = 12;
-    var b = 5;
-    var c =a%b;
-    console.log("c");
-};
+function main(a,b) {
+    var result = a%b;
+    return result;
+}
+var final = main(12,5);
+console.log(final);
