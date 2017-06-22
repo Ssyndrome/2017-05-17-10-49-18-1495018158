@@ -1,5 +1,5 @@
 'use strict';
 
-function final(a,b){
-	return a%b;
-}
+module.exports = function main(a,b) {
+  return a%b
+};
